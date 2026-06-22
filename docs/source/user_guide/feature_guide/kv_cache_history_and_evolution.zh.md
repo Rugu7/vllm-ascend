@@ -642,10 +642,10 @@ vLLM-Ascend 插件的 KV Cache 适配：
 ```mermaid
 graph TB
     subgraph "KV Cache 未来方向"
-        F1[硬件协同设计<br/>MLA 专用算子<br/>NPU/GPU 适配]
-        F2[百万 token 上下文<br/>Engram O(1) 外部记忆<br/>DSA 动态稀疏]
-        F3[跨实例共享<br/>分布式 KV 池<br/>RDMA/SSD 传输]
-        F4[P/D 分离标准化<br/>Disaggregated serving<br/>成为部署默认]
+        F1["硬件协同设计<br/>MLA 专用算子<br/>NPU/GPU 适配"]
+        F2["百万 token 上下文<br/>Engram O(1) 外部记忆<br/>DSA 动态稀疏"]
+        F3["跨实例共享<br/>分布式 KV 池<br/>RDMA/SSD 传输"]
+        F4["P/D 分离标准化<br/>Disaggregated serving<br/>成为部署默认"]
     end
 
     style F1 fill:#e1f5ff
